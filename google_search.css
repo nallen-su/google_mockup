@@ -130,7 +130,78 @@ input:focus {
 	border: .5px solid #4D90FE;
 }
 
+.button_box {
+	width:490px;
+	padding-top:34px;
+	padding-left: 190px;
+	margin: 0 auto;
+}
 
+.buttons {
+	font-family:arial;
+	font-weight:bold;
+	font-size:13px;
+	min-width:54px;
+	padding:11px 16px;
+	border:1px solid #f2f2f2;
+	background-color:#f2f2f2;
+	color:#a1a1a1;
+	border-radius:2px;
+	margin:11px 4px;
+	text-align: center;
+	display:inline;
+}
+
+.buttons:hover {
+	color:#000;
+	border:1px solid #bbb;
+	cursor:pointer;
+}
+
+.button_box a {
+	text-decoration:none
+}
+
+footer {
+	position:absolute;
+	bottom:0px;
+	background-color:#F2F2F2;
+	height: 40px;
+	width:100%;
+}
+
+.footer_left {
+	float:left;
+	position:relative;
+	top:10px;
+}
+
+.footer_right {
+	float:right;
+	position:relative;
+	top:10px;
+	margin-right:40px;
+}
+
+.footer_text {
+	padding-left:27px;
+	height:40px;
+	font-family:arial;
+	font-size:13px;
+	display:inline;
+	color:#3A3A3A;
+	cursor:pointer;
+}
+
+.footer_left a, .footer_right a {
+	text-decoration: none;
+
+}
+
+.footer_left a:hover, .footer_right a:hover {
+	text-decoration: underline;
+	color:#3A3A3A;
+}
 
 
 
